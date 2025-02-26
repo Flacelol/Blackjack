@@ -1,0 +1,47 @@
+@font-face {
+    src: url("OpenSans-Regular.ttf");
+    font-family: OpenSans-Regular;
+}
+
+body {
+    font-family: OpenSans-Regular;
+    background-image: url("table.png");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-top: 8px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the buttons horizontally */
+    width: 200px;
+}
+
+#button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрирует кнопки горизонтально */
+    gap: 0.1px; /* Расстояние между кнопками */
+}
